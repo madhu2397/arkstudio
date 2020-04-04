@@ -1,0 +1,231 @@
+is file you are going to write the CSS code -->
+/*user story 1 */
+*{
+	margin:0;
+	padding:0;
+}
+.transparent_nav{
+	width:100%;
+	height:80px;
+	background-color:rgba(255,255,255,0.7);
+	position:fixed;
+}
+.logo{
+	float:left;
+}
+.nav_bar{
+	width:80%;
+	margin:0 auto;
+}
+#nav_list{
+	float:right;
+
+}
+.bar{
+	display:inline;
+	width:120px;
+height:70px;
+line-height:70px;
+text-align:center;}
+#nav_list a{
+	text-decoration:none;
+	color:#000;
+	list-style:none;
+	padding:10px;
+	font-family:elephant;
+}
+ #nav_list li:hover{
+	background-color:green;
+}
+#nav_list li a:hover{
+color:#fff;}
+section img{
+width:100%;
+height:720px;
+}
+/*user guide2*/
+.cta {
+	background:rgba(255,255,255,0.7);
+	border-radius:5px;
+	padding:15px;
+}
+@media(min-width:700px){
+	.cta{
+		display:grid;
+		grid-template-columns:1fr auto;
+	}
+}
+.button{
+	text-decoration:none;
+	color:#000;
+	background-color:rgba(255,255,255,0.7);
+	padding:8px;
+	border-radius:5px;
+	display:inline-block;
+	border:3px solid cyan;
+}
+.button:hover{
+	color:#fff;
+	background-color:cyan;
+	border:3px solid blue;
+}
+ .hwrap{
+	text-align:center;
+}
+#wrapalternate{
+	width:100%;
+	margin-bottom:80px;
+
+}
+.seperator{
+	width:60%;
+	margin:0 auto;
+}
+.seperator img{
+	height:180px;
+	margin-bottom:0;
+}
+ul li img{
+	height:60px;
+	width:60px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.par{
+	text-align:center;
+	margin-top:20px;
+}
+#unorder{
+	display:flex;
+	justify-content:center;
+	margin:0;
+	text-align:center;
+}
+#unorder li{
+list-style:none;
+text-align:center;
+padding:0 73px;}
+
+.work{
+	width:19.7%;
+	margin:0;padding:0;
+height:auto;
+transition:all 2s linear;
+}
+
+.work:hover{
+transform:scale(0.6);
+}
+section h2{
+	text-align:center;
+	margin-top:30px;
+}
+.testimonial-names{
+display:flex;
+justify-content:center;
+margin-top:40px;
+}
+.testimonial-names li{
+	list-style:none;
+	text-align:center;
+	padding:0 50px;
+}
+.title{
+	font-size:16px;
+	font-weight:lighter;
+}
+.para{
+	margin-top:20px;
+	text-align:center;
+}
+.testimonial-image{
+	border-radius:50%;
+	margin-bottom:10px;
+}
+.wrapper{
+	width:100%;
+	background-color:rgba(211,211,211,0.3);
+	margin-top:50px;
+}
+.brandlogo {
+	display:flex;
+	justify-content:center;
+}
+.brandlogo li{
+	list-style:none;
+	padding:0 40px;
+}
+
+.footer_widget{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-template-rows:150px;
+	justify-content:space-around;
+	align-items:center;
+	color:white;
+	padding-bottom:20px;
+}
+.cols ul li{
+	list-style:none;
+}
+.cols ul li a{
+	font-weight:lighter;
+	font-size:16px;
+	color:#fff;
+	
+}
+footer{
+	background:rgba(0,0,0,0.9);
+	text-align:center;
+}
+.icons{
+	display:flex;
+	justify-content:center;
+}
+.cta-foot {
+	background:rgba(255,255,255,0.7);
+	width:50%;
+	margin:0 auto;
+	border-radius:5px;
+	padding:15px;
+}
+@media(min-width:700px){
+	.cta-foot{
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+	}
+}
+.icons a{
+	text-decoration:none;
+	padding:5px;
+}
+.cols h3{
+	margin:15px;
+}
+.cols p{
+	text-align:center;
+	margin-bottom:10px;
+	word-spacing:6px;
+}
+#sup_list a{
+	text-decoration:none;
+}
+#sup_list li{
+	padding:4px;
+}
+#comp_list a{
+	text-decoration:none;
+}
+#comp_list li{
+	padding:3px;
+}
+.rights{
+	color:#fff;
+	margin-top:30px;
+	text-align:center;
+}
+.footer_widget a:hover{
+	background-color:cyan;
+	color:pink;
+}
